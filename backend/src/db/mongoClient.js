@@ -1,7 +1,7 @@
 // backend/db/mongoClient.js
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
-const uri = "mongodb+srv://kushal7khanna:WxRq6wmL7Ixwkded@cluster0.ih6aeef.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "your mongo db connection";
 
 const client = new MongoClient(uri, {
   ssl: true,
